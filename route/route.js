@@ -2,7 +2,7 @@ const Controller = require('../controller/controller')
 const express = require('express')
 const routes = express.Router();
 const verify = require('../route/auth-route')
-const cors = require('cors')
+
 
 
 routes.get('/', Controller.setIndex)
