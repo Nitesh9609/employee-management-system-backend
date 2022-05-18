@@ -1,6 +1,5 @@
 const adminData = require('../model/Admin-model')
 const employeeData = require('../model/Employee-model')
-const employeeDetails = require('../model/Employee-detail-model')
 const bcrypt = require('bcryptjs')
 const Joi = require('@hapi/joi')
 const jwt = require('jsonwebtoken')
